@@ -28,5 +28,5 @@ function generateExcuse() {
 
   let excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
 
-  document.getElementById("excuse").textContent = excuse;
+  document.getElementById("excuse").innerHTML = excuse;
 }
